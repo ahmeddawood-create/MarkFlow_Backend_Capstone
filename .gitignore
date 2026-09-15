@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables & secrets
+.env
+*.env
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Generated output & reports
+*.pdf
+output/
+reports/
+
+# IDE files
+.vscode/
+.idea/
